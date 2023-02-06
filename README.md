@@ -24,3 +24,12 @@ To access the PGAdmin dashboard for the DHIS2-cluster configuration, use the fol
 <br/>Default url: http://localhost:5050
 <br/>Username: admin@test.no
 <br/>Password: district
+
+Add the DHIS2 database to PGAdmin:
+
+1. Click add server in the PGAdmin dashboard
+2. Click connection
+3. Set the host name/address to the name of the docker db container (`dhis2-docker-db-1`)
+4. Set the username (defaults to dhis)
+5. Set the password (defaults to dhis)
+6. Click save
