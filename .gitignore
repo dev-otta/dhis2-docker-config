@@ -1,0 +1,8 @@
+
+# Directories
+# ----
+.idea
+
+# Files
+# ----
+**.*.sql
