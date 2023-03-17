@@ -8,8 +8,8 @@ services:
       POSTGRES_USER: dhis
       POSTGRES_DB: dhis2
       POSTGRES_PASSWORD: dhis
-#    volumes:
-#      - ./db/{path-til-db-dump}/init.sql:/docker-entrypoint-initdb.d/init.sql
+    volumes:
+      - ./db/6ps/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
     - "5433:5432"
 
