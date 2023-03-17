@@ -1,7 +1,7 @@
 # DHIS2-docker-config
 Configuration repo for spinning up a DHIS2-cluster locally.
 
-## Set upp the application
+## Set up the application
 
 To spin up the containers for the DHIS2-cluster, you can use the docker-compose command. Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to define the application's services, networks, and volumes in a single docker-compose.yml file. To spin up the containers for the DHIS2-cluster, simply navigate to the directory where the docker-compose.yml file is located, and run the following command:
 
